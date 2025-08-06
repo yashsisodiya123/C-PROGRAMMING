@@ -11,6 +11,7 @@ scanf("%d",&num2);
 
 sum=num1+num2;
 
-printf("this is sum: %d \n", sum);
+printf("this is sum: %d\n", sum);
 }
+
 
