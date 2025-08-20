@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+int main(){
 int a,b;
 printf("enter the two numbers;\n");
 scanf("%d %d", &a,&b);
@@ -8,3 +8,4 @@ scanf("%d %d", &a,&b);
     else
     printf("%d is largest", b);
 }
+
