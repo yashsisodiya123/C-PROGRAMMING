@@ -11,6 +11,10 @@ scanf("%f", &sub2);
 printf("sub3: ");
 scanf("%f", &sub3);
 
+if(sub1<35||sub2<35||sub3<35) 
+    printf("student fails");
+    
+else
     if(((sub1+sub2+sub3)/3)>=70)
         printf("distinction");
 
@@ -25,8 +29,5 @@ scanf("%f", &sub3);
                         else{
                                 if(((sub1+sub2+sub3)/3)>=35)
                                 printf("third class");
+    }}}}}
 
-                                    else{
-                                        if(sub1<35||sub2<35||sub3<35)
-                                        printf("student fails");
-                                    }}}}}
