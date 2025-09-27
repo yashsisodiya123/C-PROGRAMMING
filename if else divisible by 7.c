@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-int number, divisor;
+int number;
 
 printf("number: ");
 scanf("%d", &number);
@@ -11,3 +11,4 @@ scanf("%d", &number);
         printf("%d is not divisible by 7.", number);
 
         }
+
